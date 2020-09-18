@@ -20,11 +20,21 @@
 
     <Button
         android:id="@+id/btnPress"
-        android:layout_width="366dp"
-        android:layout_height="77dp"
+        android:layout_width="178dp"
+        android:layout_height="73dp"
         android:text="@string/btn_activityone"
-        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <Button
+        android:id="@+id/btnNewActivity"
+        android:layout_width="175dp"
+        android:layout_height="72dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnPress"
+        tools:layout_editor_absoluteX="213dp"
         tools:layout_editor_absoluteY="645dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
